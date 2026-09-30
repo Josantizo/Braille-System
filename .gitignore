@@ -1,0 +1,26 @@
+# .NET
+api/**/bin/
+api/**/obj/
+api/.vs/
+api/*.user
+api/.config/dotnet-tools.json.lock
+
+# Node / Vite
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/*.local
+
+# Environment
+**/.env
+**/.env.*
+!**/.env.example
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.user
+*.sln.docstates
